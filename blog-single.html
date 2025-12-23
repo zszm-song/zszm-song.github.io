@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Mahira | VCard | CV HTML Template</title>
+<title>Ruyi Song's Travelling</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -16,6 +16,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<script>
+function downloadCV() {
+    const correctPassword = "200468"; // set your password here
+    const password = prompt("need password to download CV:");
+    if (password === null) {
+        return;
+    }
+    if (password === correctPassword) {
+        // correct password
+        const link = document.createElement('a');
+        link.href = 'docs/CV.pdf';
+        link.download = 'CV.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } else {
+        // wrong password
+        alert("wrong password. Access denied.");
+    }
+}
+</script>
 </head>
 
 <body>
@@ -73,21 +95,21 @@
             <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
                 <div class="card-wrapper">
                     <div class="author-info" style="background-image:url(images/background/3.jpg)">
-                        <div class="image"><img src="images/resource/user.png" alt=""></div>
+                        <div class="image"><img src="images/resource/user picture.jpg" alt=""></div>
                         <div class="author">
-                            <h3>Mahira Rashid</h3>
+                            <h3>Ruyi Song</h3>
                             <div class="designation">
-                                Hi i’m
+                                Hi i'm
                                 <div class="typing-title">
-                                    <p>a <strong>web developer.</strong></p>
-                                    <p>a <strong>web Designer.</strong></p>
-                                    <p>a <strong>photographer.</strong></p>
+                                    <p>a <strong>Ph.D. candidate</strong></p>
+                                    <p>a <strong>graduate student</strong></p>
                                 </div>
                                 <span class="typed-title"></span>
+                                in ZJU.
                             </div>
                         </div>
                         <div class="link-btn">
-                            <a href="#" class="theme-btn btn-style-one">Download CV</a>
+                            <a href="javascript:void(0);" onclick="downloadCV()" class="theme-btn btn-style-one">Download CV</a>
                         </div>
                         <ul class="social-icon-two">
                             <li><a href="#"><span class="fa fa-facebook"></span></a></li>
