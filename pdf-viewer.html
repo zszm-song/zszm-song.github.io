@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>PDF 阅读</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<style>
+html, body {height: 100%; margin: 0; font-family: Arial, sans-serif;}
+body {background: #f7f8fb;}
+.viewer-toolbar {position: fixed; top: 0; left: 0; right: 0; z-index: 999; display: flex; align-items: center; gap: 12px; padding: 12px 18px; background: rgba(255,255,255,0.96); border-bottom: 1px solid #e6e6e6;}
+.viewer-toolbar .title {font-size: 16px; font-weight: 600; color: #333;}
+.viewer-toolbar a {display: inline-flex; align-items: center; justify-content: center; padding: 8px 12px; color: #333; background: #fff; border: 1px solid #ddd; border-radius: 4px; text-decoration: none;}
+.viewer-toolbar a:hover {background: #f2f2f2;}
+#pdf-frame {position: absolute; top: 56px; left: 0; right: 0; bottom: 0; width: 100%; height: calc(100% - 56px); border: none;}
+#pdf-fallback {display: none; position: absolute; top: 56px; left: 0; right: 0; bottom: 0; padding: 24px; overflow: auto; background: #fff;}
+</style>
+</head>
+<body>
+<div class="viewer-toolbar">
+  <a href="index.html">← 返回</a>
+  <span class="title" id="pdf-title">本地 PDF 阅读</span>
+  <span style="flex:1"></span>
+  <a id="open-new" href="#" target="_blank">新标签打开</a>
+  <a id="download" href="#" download>下载 PDF</a>
+</div>
+<iframe id="pdf-frame" src="" allowfullscreen></iframe>
+<div id="pdf-fallback">
+  <p>PDF 无法直接预览，请点击下面链接下载或在新标签页查看：</p>
+  <p><a id="fallback-link" href="#" target="_blank">打开 PDF</a></p>
+</div>
+<script>
+function getQueryParam(name) {
+  const params = new URLSearchParams(window.location.search);
+  return params.get(name);
+}
+const file = getQueryParam('file') || 'docs/CV.pdf';
+const title = decodeURIComponent(getQueryParam('title') || file.split('/').pop());
+document.getElementById('pdf-title').textContent = title;
+const iframe = document.getElementById('pdf-frame');
+const openNew = document.getElementById('open-new');
+const download = document.getElementById('download');
+const fallbackLink = document.getElementById('fallback-link');
+iframe.src = file;
+openNew.href = file;
+download.href = file;
+download.setAttribute('download', title);
+fallbackLink.href = file;
+iframe.addEventListener('error', () => {
+  document.getElementById('pdf-frame').style.display = 'none';
+  document.getElementById('pdf-fallback').style.display = 'block';
+});
+</script>
+</body>
+</html>
