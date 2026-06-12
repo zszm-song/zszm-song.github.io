@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>递归式多模态推理模型视觉-语言-动作的研究</title>
+<title>递归式多模态推理模型（视觉-语言-动作）的研究</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -28,7 +28,7 @@ function getQueryParam(name) {
   const params = new URLSearchParams(window.location.search);
   return params.get(name);
 }
-const file = getQueryParam('file') || 'docs/递归式多模态推理模型视觉-语言-动作的研究.pdf';
+const file = getQueryParam('file') || 'docs/递归式多模态推理模型（视觉-语言-动作）的研究.pdf';
 const iframe = document.getElementById('pdf-frame');
 const fallbackLink = document.getElementById('fallback-link');
 iframe.src = file;
