@@ -28,7 +28,7 @@ function getQueryParam(name) {
   const params = new URLSearchParams(window.location.search);
   return params.get(name);
 }
-const file = getQueryParam('file') || 'docs/CV.pdf';
+const file = getQueryParam('file') || 'docs/递归式多模态推理模型视觉-语言-动作的研究.pdf';
 const iframe = document.getElementById('pdf-frame');
 const fallbackLink = document.getElementById('fallback-link');
 iframe.src = file;
