@@ -17,6 +17,12 @@
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
 		<script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
 
+		<style>
+			.amcharts-credits {
+				display: none !important;
+			}
+		</style>
+
 		<!-- amCharts javascript code -->
 		<script type="text/javascript">
 			AmCharts.makeChart("map",{
@@ -26,6 +32,7 @@
 					"fontSize": 15,
 					"color": "#FFFFFF",
 					"projection": "mercator",
+					"showCredits": false,
 					"backgroundAlpha": 1,
 					"backgroundColor": "rgba(80,80,80,1)",
 					"dataProvider": {
