@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/DronePanoramaModal-BbyrSZ-D.js","assets/DronePanoramaModal-BuDswXDb.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/DronePanoramaModal-TJH4MTdJ.js","assets/DronePanoramaModal-BuDswXDb.css"])))=>i.map(i=>d[i]);
 //#region \0rolldown/runtime.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;
@@ -10303,6 +10303,45 @@ var Drone = createLucideIcon("drone", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+createLucideIcon("eye-off", [
+	["path", {
+		d: "M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49",
+		key: "ct8e1f"
+	}],
+	["path", {
+		d: "M14.084 14.158a3 3 0 0 1-4.242-4.242",
+		key: "151rxh"
+	}],
+	["path", {
+		d: "M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143",
+		key: "13bj9a"
+	}],
+	["path", {
+		d: "m2 2 20 20",
+		key: "1ooewy"
+	}]
+]);
+/**
+* @license lucide-react v1.17.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+createLucideIcon("eye", [["path", {
+	d: "M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",
+	key: "1nclc0"
+}], ["circle", {
+	cx: "12",
+	cy: "12",
+	r: "3",
+	key: "1v7zrd"
+}]]);
+/**
+* @license lucide-react v1.17.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var GripVertical = createLucideIcon("grip-vertical", [
 	["circle", {
 		cx: "9",
@@ -10543,6 +10582,19 @@ var PanelRightOpen = createLucideIcon("panel-right-open", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+createLucideIcon("pencil", [["path", {
+	d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+	key: "1a8usu"
+}], ["path", {
+	d: "m15 5 4 4",
+	key: "1mk7zo"
+}]]);
+/**
+* @license lucide-react v1.17.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 createLucideIcon("plus", [["path", {
 	d: "M5 12h14",
 	key: "1ays0h"
@@ -10734,6 +10786,34 @@ var Star = createLucideIcon("star", [["path", {
 	d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
 	key: "r04s7s"
 }]]);
+/**
+* @license lucide-react v1.17.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+createLucideIcon("trash-2", [
+	["path", {
+		d: "M10 11v6",
+		key: "nco0om"
+	}],
+	["path", {
+		d: "M14 11v6",
+		key: "outv1u"
+	}],
+	["path", {
+		d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6",
+		key: "miytrc"
+	}],
+	["path", {
+		d: "M3 6h18",
+		key: "d0wm0j"
+	}],
+	["path", {
+		d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",
+		key: "e791ji"
+	}]
+]);
 /**
 * @license lucide-react v1.17.0 - ISC
 *
@@ -13670,7 +13750,7 @@ var privateTravelMap = {
 //#endregion
 //#region src/data/editorState.ts
 var emptyEditorState = {
-	schemaVersion: 1,
+	schemaVersion: 2,
 	addedCountries: [],
 	countryOrder: [],
 	hiddenCountryIds: [],
@@ -13680,11 +13760,22 @@ var emptyEditorState = {
 	hiddenMediaIds: [],
 	coverMediaByCity: {},
 	droneOrderByCity: {},
-	hiddenDroneMediaIds: []
+	hiddenDroneMediaIds: [],
+	customRoutes: []
 };
 var isStringArray = (value) => Array.isArray(value) && value.every((item) => typeof item === "string");
 var isStringArrayRecord = (value) => Boolean(value) && typeof value === "object" && Object.values(value).every(isStringArray);
 var isStringRecord = (value) => Boolean(value) && typeof value === "object" && Object.values(value).every((item) => typeof item === "string");
+var isCustomRoutePoint = (value) => {
+	if (!value || typeof value !== "object") return false;
+	const candidate = value;
+	return typeof candidate.lat === "number" && Number.isFinite(candidate.lat) && candidate.lat >= -90 && candidate.lat <= 90 && typeof candidate.lng === "number" && Number.isFinite(candidate.lng) && candidate.lng >= -180 && candidate.lng <= 180;
+};
+var isCustomRoute = (value) => {
+	if (!value || typeof value !== "object") return false;
+	const candidate = value;
+	return typeof candidate.id === "string" && typeof candidate.title === "string" && (candidate.type === "flight" || candidate.type === "ferry" || candidate.type === "drive" || candidate.type === "walk" || candidate.type === "custom") && Array.isArray(candidate.points) && candidate.points.length >= 2 && candidate.points.every(isCustomRoutePoint) && (candidate.color === void 0 || typeof candidate.color === "string") && (candidate.visible === void 0 || typeof candidate.visible === "boolean");
+};
 var isLocalEditorCountry = (value) => {
 	if (!value || typeof value !== "object") return false;
 	const candidate = value;
@@ -13693,9 +13784,9 @@ var isLocalEditorCountry = (value) => {
 var parseEditorState = (value) => {
 	if (!value || typeof value !== "object") return void 0;
 	const candidate = value;
-	if (candidate.schemaVersion !== 1) return void 0;
+	if (candidate.schemaVersion !== 1 && candidate.schemaVersion !== 2) return void 0;
 	return {
-		schemaVersion: 1,
+		schemaVersion: 2,
 		addedCountries: Array.isArray(candidate.addedCountries) ? candidate.addedCountries.filter(isLocalEditorCountry) : [],
 		countryOrder: isStringArray(candidate.countryOrder) ? candidate.countryOrder : [],
 		hiddenCountryIds: isStringArray(candidate.hiddenCountryIds) ? candidate.hiddenCountryIds : [],
@@ -13706,6 +13797,7 @@ var parseEditorState = (value) => {
 		coverMediaByCity: isStringRecord(candidate.coverMediaByCity) ? candidate.coverMediaByCity : {},
 		droneOrderByCity: isStringArrayRecord(candidate.droneOrderByCity) ? candidate.droneOrderByCity : {},
 		hiddenDroneMediaIds: isStringArray(candidate.hiddenDroneMediaIds) ? candidate.hiddenDroneMediaIds : [],
+		customRoutes: Array.isArray(candidate.customRoutes) ? candidate.customRoutes.filter(isCustomRoute) : [],
 		updatedAt: typeof candidate.updatedAt === "string" ? candidate.updatedAt : void 0
 	};
 };
@@ -13775,6 +13867,110 @@ var droneMediaById = droneMediaItems.reduce((acc, item) => {
 	acc[item.id] = item;
 	return acc;
 }, {});
+//#endregion
+//#region src/data/localEditorApi.ts
+var editorHeaders = {
+	"content-type": "application/json",
+	"x-travelatlas-local-editor": "1"
+};
+var parseResponse = async (response) => {
+	const body = await response.json();
+	if (!response.ok || !body.ok) throw new Error([body.error, body.details].filter(Boolean).join("\n") || "本地编辑操作失败。");
+	return body;
+};
+var searchLocalCountries = async (query, signal) => {
+	const search = new URLSearchParams({ q: query });
+	return (await parseResponse(await fetch(`/__travelatlas/editor/catalog/countries?${search}`, {
+		cache: "no-store",
+		signal
+	}))).results;
+};
+var searchLocalCities = async (query, countryCode, signal) => {
+	const search = new URLSearchParams({
+		q: query,
+		countryCode
+	});
+	return (await parseResponse(await fetch(`/__travelatlas/editor/catalog/cities?${search}`, {
+		cache: "no-store",
+		signal
+	}))).results;
+};
+var addLocalCountry = async (countryCode, visitedDate) => {
+	return parseResponse(await fetch("/__travelatlas/editor/countries", {
+		method: "POST",
+		headers: editorHeaders,
+		body: JSON.stringify({
+			countryCode,
+			visitedDate
+		})
+	}));
+};
+var readLocalEditorState = async () => {
+	return (await parseResponse(await fetch("/__travelatlas/editor/state", { cache: "no-store" }))).state;
+};
+var updateLocalEditorState = async (update) => {
+	const current = await readLocalEditorState();
+	return (await parseResponse(await fetch("/__travelatlas/editor/state", {
+		method: "PUT",
+		headers: editorHeaders,
+		body: JSON.stringify(update(current))
+	}))).state;
+};
+var uploadLocalMedia = async (upload) => {
+	const search = new URLSearchParams({
+		countryId: upload.countryId,
+		cityId: upload.cityId,
+		kind: upload.kind,
+		fileName: upload.file.name
+	});
+	if (upload.date) search.set("date", upload.date);
+	if (upload.lat !== void 0) search.set("lat", String(upload.lat));
+	if (upload.lng !== void 0) search.set("lng", String(upload.lng));
+	if (upload.altitudeMeters !== void 0) search.set("altitudeMeters", String(upload.altitudeMeters));
+	if (upload.relativeAltitudeMeters !== void 0) search.set("relativeAltitudeMeters", String(upload.relativeAltitudeMeters));
+	if (upload.titleZh) search.set("titleZh", upload.titleZh);
+	if (upload.titleEn) search.set("titleEn", upload.titleEn);
+	return parseResponse(await fetch(`/__travelatlas/editor/upload?${search}`, {
+		method: "POST",
+		headers: {
+			"content-type": upload.file.type || "application/octet-stream",
+			"x-travelatlas-local-editor": "1"
+		},
+		body: upload.file
+	}));
+};
+var importLocalMedia = async (sourcePaths = []) => {
+	return parseResponse(await fetch("/__travelatlas/editor/import", {
+		method: "POST",
+		headers: editorHeaders,
+		body: JSON.stringify({ sourcePaths })
+	}));
+};
+var deleteHiddenLocalMedia = async (cityId, ids) => {
+	return parseResponse(await fetch("/__travelatlas/editor/media/delete", {
+		method: "POST",
+		headers: editorHeaders,
+		body: JSON.stringify({
+			cityId,
+			ids
+		})
+	}));
+};
+var deleteHiddenLocalCountries = async (ids) => {
+	return parseResponse(await fetch("/__travelatlas/editor/countries/delete", {
+		method: "POST",
+		headers: editorHeaders,
+		body: JSON.stringify({ ids })
+	}));
+};
+var addLocalTravelRecord = async (input) => {
+	return parseResponse(await fetch("/__travelatlas/editor/records", {
+		method: "POST",
+		headers: editorHeaders,
+		body: JSON.stringify(input)
+	}));
+};
+var reloadAfterLocalSave = () => window.location.reload();
 //#endregion
 //#region src/data/mapSources.ts
 var cesiumIonToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6InZGQ1A2NEp1LUJDVUs3TWMiLCJqdGkiOiIyNTU0MmYyMC05ZTM2LTRhNmEtYmYwNi1mNWM5ZTI2YWUxNDgiLCJpZCI6NTA2Mzc1LCJzdWIiOiJ6c3ptIiwiaXNzIjoiaHR0cHM6Ly9hcGkuY2VzaXVtLmNvbSIsImF1ZCI6InRyYXZlbCIsImlhdCI6MTc5MDIzNDQyMH0.nPxD8oqgXqAxrMAhgdDcvfIMUrwOxWI5v4Ixwb1MNmQ".trim();
@@ -15475,6 +15671,8 @@ var createRoutePositions = (startLng, startLat, endLng, endLat, routeType) => {
 		return Cesium.Cartesian3.fromRadians(point.longitude, point.latitude, height);
 	});
 };
+var customRouteHeight = (routeType) => routeType === "flight" ? 24e3 : routeType === "ferry" ? 8e3 : 6e3;
+var createCustomRoutePositions = (points, routeType) => points.map((point) => Cesium.Cartesian3.fromDegrees(point.lng, point.lat, customRouteHeight(routeType)));
 var isPositionFacingCamera = (position, cameraPosition) => {
 	const surfaceNormal = Cesium.Cartesian3.normalize(position, new Cesium.Cartesian3());
 	const cameraVector = Cesium.Cartesian3.subtract(cameraPosition, position, new Cesium.Cartesian3());
@@ -15510,6 +15708,15 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 	const lastCameraFocusKeyRef = (0, import_react.useRef)(void 0);
 	const cameraCommandCountRef = (0, import_react.useRef)(0);
 	const debugDroneCameraLockUntilRef = (0, import_react.useRef)(0);
+	const [customRoutes, setCustomRoutes] = (0, import_react.useState)(() => travelAtlasEditorState.customRoutes);
+	const [isDrawingCustomRoute, setIsDrawingCustomRoute] = (0, import_react.useState)(false);
+	const [draftRoutePoints, setDraftRoutePoints] = (0, import_react.useState)([]);
+	const [draftRoutePreviewPoint, setDraftRoutePreviewPoint] = (0, import_react.useState)();
+	const [customRouteTitle, setCustomRouteTitle] = (0, import_react.useState)("");
+	const [customRouteType, setCustomRouteType] = (0, import_react.useState)("custom");
+	const [customRouteColor, setCustomRouteColor] = (0, import_react.useState)("#f59e0b");
+	const [customRouteNotice, setCustomRouteNotice] = (0, import_react.useState)("");
+	const [customRouteBusy, setCustomRouteBusy] = (0, import_react.useState)(false);
 	const [viewerReadyVersion, setViewerReadyVersion] = (0, import_react.useState)(0);
 	const updateVisibleHemisphereRef = (0, import_react.useRef)(() => void 0);
 	const [focusOffset, setFocusOffset] = (0, import_react.useState)({
@@ -15732,6 +15939,100 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 		viewerRef.current = component;
 		setViewerReadyVersion((current) => current + 1);
 	}, []);
+	const stopCustomRouteDrawing = (0, import_react.useCallback)(() => {
+		setIsDrawingCustomRoute(false);
+		setDraftRoutePreviewPoint(void 0);
+	}, []);
+	(0, import_react.useCallback)(() => {
+		setDraftRoutePoints([]);
+		setDraftRoutePreviewPoint(void 0);
+		setCustomRouteNotice("请在地图上依次点击路线点，至少需要两个点。");
+		setIsDrawingCustomRoute(true);
+	}, []);
+	const cancelCustomRouteDrawing = (0, import_react.useCallback)(() => {
+		stopCustomRouteDrawing();
+		setDraftRoutePoints([]);
+		setCustomRouteNotice("已取消当前路线。");
+	}, [stopCustomRouteDrawing]);
+	(0, import_react.useCallback)(async () => {
+		const title = customRouteTitle.trim();
+		if (!title) {
+			setCustomRouteNotice("请先填写路线名称。");
+			return;
+		}
+		if (draftRoutePoints.length < 2) {
+			setCustomRouteNotice("至少点击两个地图点后才能保存。");
+			return;
+		}
+		const route = {
+			id: `custom-route-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+			title,
+			type: customRouteType,
+			color: customRouteColor,
+			visible: true,
+			points: draftRoutePoints
+		};
+		setCustomRouteBusy(true);
+		try {
+			const nextRoutes = [...customRoutes, route];
+			setCustomRoutes((await updateLocalEditorState((current) => ({
+				...current,
+				customRoutes: nextRoutes
+			}))).customRoutes);
+			setCustomRouteTitle("");
+			setDraftRoutePoints([]);
+			stopCustomRouteDrawing();
+			setCustomRouteNotice(`已保存路线“${title}”。`);
+		} catch (error) {
+			setCustomRouteNotice(error instanceof Error ? error.message : "路线保存失败。");
+		} finally {
+			setCustomRouteBusy(false);
+		}
+	}, [
+		customRouteColor,
+		customRouteTitle,
+		customRouteType,
+		customRoutes,
+		draftRoutePoints,
+		stopCustomRouteDrawing
+	]);
+	(0, import_react.useCallback)(async (routeId) => {
+		const nextRoutes = customRoutes.map((route) => route.id === routeId ? {
+			...route,
+			visible: route.visible === false
+		} : route);
+		setCustomRouteBusy(true);
+		try {
+			setCustomRoutes((await updateLocalEditorState((current) => ({
+				...current,
+				customRoutes: nextRoutes
+			}))).customRoutes);
+		} catch (error) {
+			setCustomRouteNotice(error instanceof Error ? error.message : "路线更新失败。");
+		} finally {
+			setCustomRouteBusy(false);
+		}
+	}, [customRoutes]);
+	(0, import_react.useCallback)(async (routeId) => {
+		const route = customRoutes.find((candidate) => candidate.id === routeId);
+		if (!route || !window.confirm(`确定删除路线“${route.title}”吗？`)) return;
+		const nextRoutes = customRoutes.filter((candidate) => candidate.id !== routeId);
+		setCustomRouteBusy(true);
+		try {
+			setCustomRoutes((await updateLocalEditorState((current) => ({
+				...current,
+				customRoutes: nextRoutes
+			}))).customRoutes);
+			setCustomRouteNotice(`已删除路线“${route.title}”。`);
+		} catch (error) {
+			setCustomRouteNotice(error instanceof Error ? error.message : "路线删除失败。");
+		} finally {
+			setCustomRouteBusy(false);
+		}
+	}, [customRoutes]);
+	(0, import_react.useEffect)(() => {}, [isDrawingCustomRoute, viewerReadyVersion]);
+	(0, import_react.useEffect)(() => {}, [isDrawingCustomRoute, viewerReadyVersion]);
+	(0, import_react.useEffect)(() => {}, [cancelCustomRouteDrawing, isDrawingCustomRoute]);
 	const mappedCities = (0, import_react.useMemo)(() => cities.filter((city) => typeof city.lat === "number" && typeof city.lng === "number"), []);
 	const journeyVisitCounts = (0, import_react.useMemo)(() => journeyDays.reduce((counts, day) => {
 		counts[day.cityId] = (counts[day.cityId] ?? 0) + 1;
@@ -15775,6 +16076,15 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 			}];
 		});
 	}, []);
+	const mappedCustomRoutes = (0, import_react.useMemo)(() => customRoutes.map((route) => ({
+		...route,
+		positions: createCustomRoutePositions(route.points, route.type)
+	})), [customRoutes]);
+	(0, import_react.useMemo)(() => createCustomRoutePositions(draftRoutePreviewPoint ? [...draftRoutePoints, draftRoutePreviewPoint] : draftRoutePoints, customRouteType), [
+		draftRoutePoints,
+		draftRoutePreviewPoint,
+		customRouteType
+	]);
 	const activeCityRouteIds = (0, import_react.useMemo)(() => new Set(mappedRoutes.filter((route) => selectedCityId && route.fromCountryId === selectedCountryId && route.toCountryId === selectedCountryId && (route.fromCityId === selectedCityId || route.toCityId === selectedCityId)).map((route) => route.id)), [
 		mappedRoutes,
 		selectedCityId,
@@ -16135,7 +16445,7 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 		"data-focus-offset-x": focusOffset.x,
 		"data-focus-offset-y": focusOffset.y,
 		"data-visible-city-count": visibleCityIds?.size ?? mappedCities.length,
-		"data-visible-route-count": visibleRouteIds?.size ?? mappedRoutes.length,
+		"data-visible-route-count": visibleRouteIds?.size ?? mappedRoutes.length + mappedCustomRoutes.length,
 		"data-active-route-pairs": activeRoutePairs,
 		"data-map-source": mapSource,
 		children: [
@@ -16221,6 +16531,22 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 							}
 						}, route.id);
 					}),
+					mappedCustomRoutes.map((route) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bt, {
+						name: route.title,
+						show: showMapContent && route.visible !== false,
+						polyline: {
+							arcType: Cesium.ArcType.NONE,
+							clampToGround: false,
+							material: new Cesium.PolylineOutlineMaterialProperty({
+								color: Cesium.Color.fromCssColorString(route.color ?? "#f59e0b").withAlpha(.9),
+								outlineColor: Cesium.Color.fromCssColorString("#fff7ed").withAlpha(.46),
+								outlineWidth: 1
+							}),
+							positions: route.positions,
+							width: 3
+						}
+					}, route.id)),
+					null,
 					mappedCities.map((city) => {
 						const isSelected = city.id === selectedCityId;
 						const isHoveredCountryCity = hoveredCountryId !== void 0 && city.countryId === hoveredCountryId;
@@ -16312,6 +16638,7 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 					})
 				]
 			}),
+			null,
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				ref: cursorGlowRef,
 				"aria-hidden": "true",
@@ -16328,117 +16655,13 @@ function CesiumAtlasGlobe({ hoveredCountryId, imageryBrightness, imageryContrast
 				children: [
 					mappedCities.length,
 					" mapped cities · ",
-					mappedRoutes.length,
-					" journey route segments"
+					mappedRoutes.length + mappedCustomRoutes.length,
+					" route segments"
 				]
 			})
 		]
 	});
 }
-//#endregion
-//#region src/data/localEditorApi.ts
-var editorHeaders = {
-	"content-type": "application/json",
-	"x-travelatlas-local-editor": "1"
-};
-var parseResponse = async (response) => {
-	const body = await response.json();
-	if (!response.ok || !body.ok) throw new Error([body.error, body.details].filter(Boolean).join("\n") || "本地编辑操作失败。");
-	return body;
-};
-var searchLocalCountries = async (query, signal) => {
-	const search = new URLSearchParams({ q: query });
-	return (await parseResponse(await fetch(`/__travelatlas/editor/catalog/countries?${search}`, {
-		cache: "no-store",
-		signal
-	}))).results;
-};
-var searchLocalCities = async (query, countryCode, signal) => {
-	const search = new URLSearchParams({
-		q: query,
-		countryCode
-	});
-	return (await parseResponse(await fetch(`/__travelatlas/editor/catalog/cities?${search}`, {
-		cache: "no-store",
-		signal
-	}))).results;
-};
-var addLocalCountry = async (countryCode, visitedDate) => {
-	return parseResponse(await fetch("/__travelatlas/editor/countries", {
-		method: "POST",
-		headers: editorHeaders,
-		body: JSON.stringify({
-			countryCode,
-			visitedDate
-		})
-	}));
-};
-var readLocalEditorState = async () => {
-	return (await parseResponse(await fetch("/__travelatlas/editor/state", { cache: "no-store" }))).state;
-};
-var updateLocalEditorState = async (update) => {
-	const current = await readLocalEditorState();
-	return (await parseResponse(await fetch("/__travelatlas/editor/state", {
-		method: "PUT",
-		headers: editorHeaders,
-		body: JSON.stringify(update(current))
-	}))).state;
-};
-var uploadLocalMedia = async (upload) => {
-	const search = new URLSearchParams({
-		countryId: upload.countryId,
-		cityId: upload.cityId,
-		kind: upload.kind,
-		fileName: upload.file.name
-	});
-	if (upload.date) search.set("date", upload.date);
-	if (upload.lat !== void 0) search.set("lat", String(upload.lat));
-	if (upload.lng !== void 0) search.set("lng", String(upload.lng));
-	if (upload.altitudeMeters !== void 0) search.set("altitudeMeters", String(upload.altitudeMeters));
-	if (upload.relativeAltitudeMeters !== void 0) search.set("relativeAltitudeMeters", String(upload.relativeAltitudeMeters));
-	if (upload.titleZh) search.set("titleZh", upload.titleZh);
-	if (upload.titleEn) search.set("titleEn", upload.titleEn);
-	return parseResponse(await fetch(`/__travelatlas/editor/upload?${search}`, {
-		method: "POST",
-		headers: {
-			"content-type": upload.file.type || "application/octet-stream",
-			"x-travelatlas-local-editor": "1"
-		},
-		body: upload.file
-	}));
-};
-var importLocalMedia = async (sourcePaths = []) => {
-	return parseResponse(await fetch("/__travelatlas/editor/import", {
-		method: "POST",
-		headers: editorHeaders,
-		body: JSON.stringify({ sourcePaths })
-	}));
-};
-var deleteHiddenLocalMedia = async (cityId, ids) => {
-	return parseResponse(await fetch("/__travelatlas/editor/media/delete", {
-		method: "POST",
-		headers: editorHeaders,
-		body: JSON.stringify({
-			cityId,
-			ids
-		})
-	}));
-};
-var deleteHiddenLocalCountries = async (ids) => {
-	return parseResponse(await fetch("/__travelatlas/editor/countries/delete", {
-		method: "POST",
-		headers: editorHeaders,
-		body: JSON.stringify({ ids })
-	}));
-};
-var addLocalTravelRecord = async (input) => {
-	return parseResponse(await fetch("/__travelatlas/editor/records", {
-		method: "POST",
-		headers: editorHeaders,
-		body: JSON.stringify(input)
-	}));
-};
-var reloadAfterLocalSave = () => window.location.reload();
 //#endregion
 //#region src/components/LocationSearchField.tsx
 function LocationSearchField({ label, placeholder, selected, search, onSelect, minQueryLength = 1, getMeta, searchOnSubmit = false }) {
@@ -21948,7 +22171,7 @@ function Timeline({ selectedDayId, onSelectDay, onHoverCity }) {
 }
 //#endregion
 //#region src/components/UpdateChecker.tsx
-var ReleaseMarkdown = (0, import_react.lazy)(() => __vitePreload(() => import("./ReleaseMarkdown-BMj545-e.js"), []));
+var ReleaseMarkdown = (0, import_react.lazy)(() => __vitePreload(() => import("./ReleaseMarkdown-DHW0F9k1.js"), []));
 function ReleaseUpdateButton({ active, state, onToggle }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 		type: "button",
@@ -22430,7 +22653,7 @@ var rememberAtlasViewState = (state) => {
 };
 //#endregion
 //#region src/App.tsx
-var DronePanoramaModal = (0, import_react.lazy)(() => __vitePreload(() => import("./DronePanoramaModal-BbyrSZ-D.js").then((module) => ({ default: module.DronePanoramaModal })), __vite__mapDeps([0,1])));
+var DronePanoramaModal = (0, import_react.lazy)(() => __vitePreload(() => import("./DronePanoramaModal-TJH4MTdJ.js").then((module) => ({ default: module.DronePanoramaModal })), __vite__mapDeps([0,1])));
 var overviewDistance = 3.25;
 var countryDistance = 1.95;
 var cityDistance = 1.38;
